@@ -120,6 +120,13 @@ img {
     gap: var(--spacing-150);
   }
 
+  .card__title {
+    &:hover {
+      color: var(--color-yellow);
+      cursor: pointer;
+    }
+  }
+
   .card__description {
     color: var(--color-gray-500);
   }
